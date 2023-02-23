@@ -20,14 +20,14 @@ const HeroBanner = ({ heroBanner }) => {
           </div>
       </div>
 
-      <div class="hero-banner-imagewrapper">
-        <div class="cover">
-          <div class="front"></div>
-          <div class="back"></div>
+      <div className="hero-banner-imagewrapper">
+        <div className="cover">
+          <div className="front"></div>
+          <div className="back"></div>
         </div>
-        <div class="pages">
-          <div class="page left"></div>
-          <div class="page right"></div>
+        <div className="pages">
+          <div className="page left"></div>
+          <div className="page right"></div>
           <img src={urlFor(heroBanner.image)} alt='books' className='hero-banner-image'/>
         </div>
       </div>
