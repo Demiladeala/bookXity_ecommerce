@@ -456,6 +456,10 @@ text-align: end;
   position: relative;
   margin: auto;
 }
+.cart-container-wrapper{
+  width: 80%;
+  margin: auto;
+}
 .footer-container{
   color: #324d67;
   text-align: center;

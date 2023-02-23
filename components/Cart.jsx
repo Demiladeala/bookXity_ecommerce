@@ -36,6 +36,7 @@ const Cart = () => {
   return (
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
+        <div className='cart-container-wrapper'>
         <button
         type="button"
         className="cart-heading"
@@ -44,6 +45,7 @@ const Cart = () => {
           <span className="heading">Your Cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>
+        </div>
 
         {cartItems.length < 1 && (
           <div className="empty-cart">
