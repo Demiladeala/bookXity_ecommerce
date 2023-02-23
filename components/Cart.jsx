@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
-import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping, AiOutlineShoppingCart } from 'react-icons/ai';
+import { AiOutlineMinus, AiOutlinePlus, AiOutlineShopping, AiOutlineShoppingCart } from 'react-icons/ai';
 import { TiDeleteOutline } from 'react-icons/ti';
+import {BsBookmarkX} from 'react-icons/bs'
 import toast from 'react-hot-toast';
 
 import { useStateContext } from '../context/StateContext';
@@ -39,7 +40,7 @@ const Cart = () => {
         type="button"
         className="cart-heading"
         onClick={() => setShowCart(false)}>
-          <AiOutlineLeft />
+          <BsBookmarkX className='cart-cancel' />
           <span className="heading">Your Cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>

@@ -439,7 +439,13 @@ text-align: end;
   /* will-change: transform; */
   transition: all 1s ease-in-out;
   margin: auto;
-
+}
+.cart-cancel{
+  position: absolute;
+  right: 30px;
+  color: gray;
+  cursor: pointer;
+  transition: transform .4s ease;
 }
 .cart-container{
   height: 100vh;
@@ -453,7 +459,7 @@ text-align: end;
 .footer-container{
   color: #324d67;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 100px;
   padding: 30px 10px;
   font-weight: 700;
   display: flex;
